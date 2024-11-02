@@ -6,4 +6,13 @@
     <Nullable>enable</Nullable>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Handlers\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\libs\ECommerce.Domain.Core\ECommerce.Domain.Core.csproj" />
+    <ProjectReference Include="..\..\libs\ECommerce.Infra.Core\ECommerce.Infra.Core.csproj" />
+  </ItemGroup>
+
 </Project>

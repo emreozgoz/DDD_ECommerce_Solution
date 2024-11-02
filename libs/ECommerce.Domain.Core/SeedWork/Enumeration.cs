@@ -9,9 +9,9 @@ namespace ECommerce.Domain.Core.SeedWork
 {
     public abstract class Enumeration : IComparable
     {
-        public string Text { get; private set; }
         public int Value { get; private set; }
-        protected Enumeration(string text, int value)
+        public string Text { get; private set; }
+        protected Enumeration(int value, string text)
         {
             Text = text;
             Value = value;
